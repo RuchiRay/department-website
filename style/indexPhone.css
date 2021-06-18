@@ -1,0 +1,206 @@
+@media screen and (max-width: 1100px) {
+  .header {
+    height: 140px;
+  }
+  .logo-heading{
+    top: 0;
+  }
+}
+@media screen and (max-width: 1060px) {
+ 
+  .header {
+    height: 180px;
+  }
+  /* navbar responsive */
+  body.disabled{
+    overflow: hidden;
+  }
+  .topnav .icon{
+    display: block;
+  }
+  .icon.hide{
+    display: none;
+  }
+  .icon.cancel-btn{
+    position: absolute;
+    top: 0;
+    right: 10%;
+  }
+  .nav-content{
+    justify-content: space-between;
+  }
+  .nav-content .menu-list{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    max-width: 400px;
+    left: -100%;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+    text-align: center;
+    background:#3a1f3b;
+    transition: all 0.5s ease;
+  }
+  .nav-content.show .menu-list{
+    left: 0%;
+  }
+  .nav-content .menu-list div{
+    margin-left: -100%;
+    transition: 0.9s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .nav-content.show .menu-list div{
+    margin-left: 0px;
+  }
+  .nav-content .menu-list a{
+    margin-left: -100%;
+    transition: 0.9s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .nav-content.show .menu-list a{
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header {
+    height: 135px;
+  }
+  .logo-heading{
+    left: 5%;
+  }
+  .department, .nit{
+    font-size: 1.7rem;
+  }
+
+  /* .topnav a:not(:first-child),
+  .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav #icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .topnav.responsive a {
+    display: block;
+  }
+  .topnav.responsive .dropdown {
+    display: block;
+  }
+  .topnav.responsive .dropbtn {
+    display: block;
+  }
+  .topnav.responsive {
+    flex-direction: column;
+  }
+  .topnav.responsive .dropdown-content {
+    position: relative;
+  }
+  .topnav {
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-start;
+    position: relative;
+  } */
+}
+
+@media screen and (max-width: 900px) {
+  
+  .logo-heading{
+    left: 4%;
+   
+  }
+}
+@media screen and (max-width: 840px) {
+  .header{
+    height: 160px;
+  }
+  
+}
+@media screen and (max-width: 805px) {
+  .header{
+    height: 128px;
+  }
+  .department,.nit{
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 665px) {
+  .header {
+    height: 225px;
+  }
+ 
+  .heading{
+    padding-left: 0;
+  }
+  .logo-heading {
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: flex-start;
+    top: 5%;
+    left: 0;
+    padding-right: 0px;
+  }
+   .department,
+  .nit {
+    font-size: 1.3rem;
+  }
+  .heading .dr {
+    font-size: 0.9rem;
+  }
+  .date-visits {
+    width: 100%;
+  }
+  /* image carousel */
+  .swiper-container {
+    width: 100%;
+    height: 300px;
+  }
+  .swiper-slide img {
+    width: 100%;
+    height: 300px;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    padding: 15px;
+  }
+  
+  
+}
+@media screen and (max-width: 566px) {
+  .header {
+    height: 250px;
+  }
+  
+}
+@media screen and (max-width: 430px) {
+  .department,.nit{
+    font-size: 16px;
+  }
+  .header{
+    height: 230px;
+  }
+}
+@media screen and (max-width: 400px) {
+  /* image carousel */
+  .swiper-container {
+    width: 100%;
+    height: 200px;
+  }
+  .swiper-slide img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  
+}
+@media screen and (max-width: 350px) {
+ 
+  .header{
+    height: 240px;
+  }
+  .logo-heading{
+    padding-left: 10px;
+  }
+}

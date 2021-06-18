@@ -27,12 +27,9 @@ const swiper = new Swiper(".swiper-container", {
     prevEl: ".swiper-button-prev",
   },
 
-  effect: "fade",
-  fadeEffect: {
-    crossFade: true,
-  },
+  
   autoplay: {
-    delay: 5000,
+    delay: 3000,
   }
 });
 // for side menu

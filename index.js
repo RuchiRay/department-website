@@ -32,6 +32,11 @@ const navbar = document.querySelector(".nav-content");
 const menuBtn = document.querySelector(".menu-btn");
 const cancelBtn = document.querySelector(".cancel-btn");
 const topnav = document.querySelector(".topnav");
+const gotobottom = document.getElementById('ipe')
+gotobottom.addEventListener('click',()=>{
+  navbar.classList.remove("show");
+  menuBtn.classList.remove("hide");
+})
 menuBtn.onclick = () => {
   navbar.classList.add("show");
   menuBtn.classList.add("hide");

@@ -238,14 +238,15 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
  
-  justify-content: space-evenly;
-  width: 60%;
+  justify-content:center;
+  /* width: 60%; */
   font-family: var(--common-font);
 }
 .footer-one {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-right: 30px;
 }
 
 .college-name {
@@ -257,6 +258,7 @@ body {
 }
 .footer-two {
   display: flex;
+  margin-right: 30px;
 }
 .quickLinks,
 .other-links {
@@ -306,8 +308,7 @@ body {
   margin-right: 30px;
 }
 .other-links{
-  /* margin-left: 40px; */
-  border-right: 2px dotted white;
+   border-right: 2px dotted white;
   padding-right: 20px;
 }
 .underline{

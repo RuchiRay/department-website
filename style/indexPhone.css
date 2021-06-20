@@ -87,6 +87,13 @@
     left: 4%;
    
   }
+  .footer{
+    flex-direction: column;
+  }
+  .footer-one,.footer-two{
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
 }
 @media screen and (max-width: 840px) {
   .header{
@@ -150,12 +157,25 @@
   }
   
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 435px) {
   .department,.nit{
     font-size: 16px;
   }
   .header{
     height: 230px;
+  }
+  .footer-two{
+    flex-direction: column;
+  }
+  .quickLinks {
+    border-left:none;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .other-links{
+     border-right: none;
+    padding-right: 0px;
   }
 }
 @media screen and (max-width: 400px) {

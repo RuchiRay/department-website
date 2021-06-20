@@ -155,11 +155,13 @@ body {
   color: var(--navbar-text);
   padding: 10px;
 }
-.dropdown:hover .dropdown-content {
-  /* display: flex; */
-  opacity: 1;
+.dropdown:hover .dropdown-content.hover{
+   opacity: 1;
   transform: scale(1);
 }
+
+
+
 
 /* image carousel */
 .swiper-container {
@@ -295,7 +297,7 @@ body {
   padding-bottom: 10px;
   border-bottom: 1px solid var(--navbar-text);
 }
-.footer-two a:hover{
+.footer-two a,.footer-three a:hover{
   color: var(--navbar-text);
 }
 .quickLinks {
@@ -324,6 +326,9 @@ body {
   padding-top: 20px;
   padding-bottom:20px;
   position: relative;
+}
+.copyright{
+  opacity: 0.7;
 }
 .developed,.developed a{
   color: white;

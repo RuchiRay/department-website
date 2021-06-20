@@ -9,12 +9,7 @@ function myTimer() {
   document.getElementById("date").innerHTML = t;
 }
 
-// for hamburger menu
-// let topnav = document.getElementById("topnav");
-// let hamburger = document.getElementById("icon");
-// hamburger.addEventListener("click", () => {
-//   topnav.classList.toggle("responsive");
-// });
+
 // for image carousel
 const swiper = new Swiper(".swiper-container", {
   // Optional parameters
@@ -27,9 +22,9 @@ const swiper = new Swiper(".swiper-container", {
     prevEl: ".swiper-button-prev",
   },
 
-  autoplay: {
-    delay: 3000,
-  },
+  // autoplay: {
+  //   delay: 3000,
+  // },
 });
 // for side menu
 const body = document.querySelector("body");

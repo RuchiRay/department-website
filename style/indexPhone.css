@@ -30,10 +30,11 @@
     justify-content: space-between;
   }
   .nav-content .menu-list{
-    position: fixed;
+    position: absolute;
     height: 100vh;
     width: 100%;
-    max-width: 400px;
+    /* max-width: 400px; */
+    max-width: 260px;
     left: -100%;
     top: 0px;
     display: flex;

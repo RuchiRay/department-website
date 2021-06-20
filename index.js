@@ -35,8 +35,9 @@ const topnav = document.querySelector(".topnav");
 menuBtn.onclick = () => {
   navbar.classList.add("show");
   menuBtn.classList.add("hide");
- 
+  
 };
+
 cancelBtn.onclick = () => {
   // body.classList.remove("disabled");
   navbar.classList.remove("show");

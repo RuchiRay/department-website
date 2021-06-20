@@ -78,7 +78,7 @@ body {
 .nav-content {
   width: 100%;
   display: flex;
-
+  position: relative;
   align-items: center;
   justify-content: center;
 }
@@ -109,7 +109,7 @@ body {
   cursor: pointer;
 }
 .icon.menu-btn {
-  padding-right: 10px;
+  padding-left: 10px;
 }
 .topnav a,
 .dropbtn {

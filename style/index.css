@@ -68,17 +68,19 @@ body {
 }
 
 /* navbar */
-.topnav.color {
+.topnav {
   display: flex;
   align-items: center;
   /* justify-content: space-evenly; */
   background-color: var(--bg-dark);
-  /* position: sticky; */
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 .nav-content {
   width: 100%;
   display: flex;
-   align-items: center;
+  align-items: center;
   justify-content: center;
 }
 .menu-list {
@@ -172,35 +174,34 @@ body {
   /* background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/11.jpg); */
   /* background-image: linear-gradient( rgba(73, 39, 74, 0.5),rgba(73, 39, 74, 0.5)),url(../images/11.jpg); */
   background-image: url(../images/11.jpg);
- 
 }
 .img-two {
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
   /* url(../images/33.jpg); */
   background-image: url(../images/33.jpg);
-  
 }
 .img-three {
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
   /* url(../images/222.jpg); */
   background-image: url(../images/222.jpg);
-  
 }
-.img-one,.img-two,.img-three{
+.img-one,
+.img-two,
+.img-three {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .swiper-button-prev,
 .swiper-button-next {
-  padding:20px;
-  background-color: rgba(255,255,255, 0.5);
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
   color: var(--bg-dark);
- }
-.swiper-button-next:hover,.swiper-button-prev:hover{
-  background-color: rgba(255,255,255, 0.6);
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgba(255, 255, 255, 0.6);
   color: var(--bg-dark);
-  
 }
 .swiper-slide {
   display: flex;
@@ -217,7 +218,7 @@ body {
   text-align: center;
   color: white;
   /* display: none; */
-    padding: 0px 50px 0px 50px;
+  padding: 0px 50px 0px 50px;
 }
 .info-head {
   font-family: var(--common-font);
@@ -230,7 +231,7 @@ body {
   /* line-height: 35px; */
   line-height: 150%;
   font-size: 20px;
-  font-family:var(--common-font);
+  font-family: var(--common-font);
   font-style: italic;
 }
 /* footer */

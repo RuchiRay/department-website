@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <!-- css for home page -->
     <link rel="stylesheet" href="style/index.css">
+    <!-- css for project and numbers on home-page -->
+    <link rel="stylesheet" href="style/projectNumbers.css">
     <!-- css for phone -->
     <link rel="stylesheet" href="style/indexPhone.css">
     <!-- font link -->
@@ -20,6 +22,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
     <!-- font awesome link -->
     <script src="https://kit.fontawesome.com/86fb746b51.js" crossorigin="anonymous"></script>
+    <!-- jquery link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
 
 </head>
 
@@ -42,9 +47,9 @@
 
     <!-- navbar -->
 
-    <div class="topnav color" id="topnav">
+    <div class="topnav" id="topnav">
         <div class="nav-content">
-            
+
             <a href="" class=" nav-item">Home</a>
             <div class="menu-list">
                 <div class="icon cancel-btn">
@@ -134,10 +139,80 @@
             <div class="swiper-button-next"></div>
         </div>
     </div>
-   <!-- projects -->
-   <div class="project-wrapper">
+    <!-- projects -->
+    <div class="project">
+        <h3 class="content-head">OUR PROJECTS</h3>
+        <div class="project-wrapper">
+            <div class="pro-one">
+                <div class="pro-img">
+                    <img src="images/mining-excavator-1736293_640.jpg" alt="">
+                </div>
+                <div class="pro-info">
+                    <p class="pro-title">Project</p>
+                    <p class="pro-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cum architecto
+                        labore delectus, voluptate velit impedit quas! Dolor, corrupti quis.</p>
+                </div>
+                <div class="pro-date-read">
+                    <p class="pro-date">June 20, 2021</p>
+                    <button class="read">Read</button>
+                </div>
+            </div>
+            <div class="pro-two">
+                <div class="pro-img">
+                    <img src="images/mining-excavator-1736293_640.jpg" alt="">
+                </div>
+                <div class="pro-info">
+                    <p class="pro-title">Project</p>
+                    <p class="pro-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cum architecto
+                        labore delectus, voluptate velit impedit quas! Dolor, corrupti quis.</p>
+                </div>
+                <div class="pro-date-read">
+                    <p class="pro-date">June 20, 2021</p>
+                    <button class="read">Read</button>
+                </div>
+            </div>
+            <div class="pro-three">
+                <div class="pro-img">
+                    <img src="images/mining-excavator-1736293_640.jpg" alt="">
+                </div>
+                <div class="pro-info">
+                    <p class="pro-title">Project</p>
+                    <p class="pro-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cum architecto
+                        labore delectus, voluptate velit impedit quas! Dolor, corrupti quis.</p>
+                </div>
+                <div class="pro-date-read">
+                    <p class="pro-date">June 20, 2021</p>
+                    <button class="read">Read</button>
+                </div>
+            </div>
+        </div>
+        <div class="project-back"></div>
+    </div>
 
-   </div>
+    <!-- Numbers -->
+    <div class="number-wrapper">
+        <div class="publications">
+            <p class="num-icon"><i class="fas fa-book-open nicon"></i></p>
+            <span class="number count">10</span><span class="number">+</span>
+            <p class="num-title">publications</p>
+        </div>
+        <div class="students">
+            <p class="num-icon"><i class="fas fa-users nicon"></i></p>
+            <span class="number count">500</span><span class="number">+</span>
+            <p class="num-title">students</p>
+        </div>
+        <div class="placements">
+            <p class="num-icon"><i class="fas fa-graduation-cap nicon"></i></p>
+            <span class="number count">81</span><span class="number">%</span>
+            <p class="num-title">placements</p>
+        </div>
+        <div class="projects">
+            <p class="num-icons"><i class="fas fa-gift nicon"></i></p>
+            <span class="number count">8</span><span class="number">+</span>
+            <p class="num-title">projects</p>
+        </div>
+    </div>
+
     <!-- footer -->
     <div class="footer-wrapper" id="footer">
         <div class="footer">
@@ -188,10 +263,10 @@
                     <a href="https://www.linkedin.com/in/avinesh-p-295643166/" target="_blank">Avinesh Pandey </a>
                     <a href="https://www.linkedin.com/in/ishaans909/" target="_blank">Ishaan Sharma </a>
                     <a href="https://www.linkedin.com/in/ruchi-ray-a3ab0b1ba/" target="_blank"> Ruchi Ray </a>
-                    <a href="https://www.linkedin.com/in/shivanshu-singh-182152197/" target="_blank">Shivanshu  </a>
+                    <a href="https://www.linkedin.com/in/shivanshu-singh-182152197/" target="_blank">Shivanshu </a>
                     <a href="https://www.linkedin.com/in/syed-aareez-63414b197" target="_blank"> Syed Aareez </a>
                     <a href="https://www.linkedin.com/in/uttam-kumar-sharma-5980991a5" target="_blank"> Uttam Sharma
-                        </a>
+                    </a>
                 </div>
             </div>
         </div>
@@ -213,6 +288,11 @@
     <!-- swiper script -->
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- counter script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
     <!-- script -->
     <script src="index.js"></script>
 

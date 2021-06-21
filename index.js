@@ -44,10 +44,10 @@ menuBtn.onclick = () => {
 };
 
 cancelBtn.onclick = () => {
-  // body.classList.remove("disabled");
+ 
   navbar.classList.remove("show");
   menuBtn.classList.remove("hide");
-  // topnav.classList.add("color");
+ 
 };
 window.onscroll = () => {
   this.scrollY > 20
@@ -84,3 +84,10 @@ for (let drop of dropdowns) {
     drop.childNodes[3].classList.toggle("clicked");
   });
 }
+// for counter
+$(document).ready(function(){
+  $('.count').counterUp({
+    delay: 10,
+    time: 1200
+  });
+});

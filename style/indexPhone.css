@@ -1,3 +1,10 @@
+@media screen and (max-width: 1500px) {
+  /* expertise */
+  .inner-card {
+    width: 30%;
+  }
+}
+
 @media screen and (max-width: 1100px) {
   .header {
     height: 140px;
@@ -12,7 +19,12 @@
     width: 30%;
     margin: 10px;
   }
+  /* expertise */
+  .inner-card {
+    width: 40%;
+  }
 }
+
 @media screen and (max-width: 1060px) {
   .header {
     height: 180px;
@@ -110,7 +122,7 @@
     margin-right: 0;
   }
   /* numbers */
-  .number-wrapper{
+  .number-wrapper {
     height: fit-content;
   }
 }
@@ -128,7 +140,7 @@
     font-size: 1.5rem;
   }
   /* projects */
-  .content-head{
+  .content-head {
     margin-bottom: 15px;
   }
   .project-wrapper {
@@ -146,6 +158,10 @@
   .pro-three {
     width: 70%;
     margin-bottom: 30px;
+  }
+  /* expertise */
+  .inner-card {
+    width: 50%;
   }
 }
 @media screen and (max-width: 665px) {
@@ -195,13 +211,17 @@
     margin-right: 0;
   }
   /* projects */
-  .content-head{
+  .content-head {
     margin-bottom: 5px;
   }
-  .project{
+  .project {
     margin: 20px 0px 20px 0px;
-}
   }
+  /* expertise */
+  .inner-card{
+    width: 60%;
+  }
+}
 
 @media screen and (max-width: 566px) {
   .header {
@@ -213,6 +233,13 @@
   }
   .info-para {
     font-size: 15px;
+  }
+  /* expertise */
+  .inner-card{
+    width: 70%;
+  }
+  .field-title{
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 435px) {
@@ -238,14 +265,19 @@
     padding-right: 0px;
   }
   /* numbers */
-  .nicon{
+  .nicon {
     font-size: 20px;
   }
-  .number{
+  .number {
     font-size: 30px;
   }
-  .num-title{
+  .num-title {
     font-size: 16px;
+  }
+  /* expertise */
+  .inner-card{
+    width: 85%;
+    margin: 20px 0px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -266,7 +298,7 @@
   .pro-three {
     width: 90%;
   }
-  .content-head{
+  .content-head {
     font-size: 30px;
   }
 }
@@ -276,5 +308,9 @@
   }
   .logo-heading {
     padding-left: 10px;
+  }
+  /* expertise */
+  .inner-card{
+    width: 95%;
   }
 }

@@ -84,10 +84,4 @@ for (let drop of dropdowns) {
     drop.childNodes[3].classList.toggle("clicked");
   });
 }
-// for counter
-$(document).ready(function(){
-  $('.count').counterUp({
-    delay: 10,
-    time: 1200
-  });
-});
+

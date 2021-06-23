@@ -29,7 +29,7 @@ const swiper = new Swiper(".swiper-container-banner", {
 // for alumni slider
 var nswiper = new Swiper(".mySwiper", {
   slidesPerView: 'auto',
-  spaceBetween: 40,
+  spaceBetween:50,
   centeredSlides:true,
   grabCursor:true,
   loop: true,

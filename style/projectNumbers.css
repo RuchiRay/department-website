@@ -257,6 +257,7 @@ html {
 }
 .alumni-details:hover{
   background-color: var(--bg-light);
-  color: white;
+  
+  color:#d4bbbb;
 }
 

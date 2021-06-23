@@ -11,7 +11,7 @@ function myTimer() {
 
 
 // for image carousel
-const swiper = new Swiper(".swiper-container", {
+const swiper = new Swiper(".swiper-container-banner", {
   // Optional parameters
   direction: "horizontal",
   loop: true,
@@ -27,13 +27,12 @@ const swiper = new Swiper(".swiper-container", {
   // },
 });
 // for alumni slider
-
-var swiperAlumni = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  spaceBetween: 0,
-  slidesPerGroup: 3,
+var nswiper = new Swiper(".mySwiper", {
+  slidesPerView: 'auto',
+  spaceBetween: 40,
+  centeredSlides:true,
+  grabCursor:true,
   loop: true,
-  loopFillGroupWithBlank: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -43,61 +42,6 @@ var swiperAlumni = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
-window.addEventListener('resize',()=>{
-  if(window.innerWidth<=1000){
-    console.log('resizing');
-    
-     swiperAlumni = new Swiper(".mySwiper", {
-      slidesPerView: 2,
-      spaceBetween: 30,
-      slidesPerGroup: 2,
-      loop: true,
-      loopFillGroupWithBlank: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  }
-  if(window.innerWidth<=700){
-    swiperAlumni = new Swiper(".mySwiper", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      slidesPerGroup: 1,
-      loop: true,
-      loopFillGroupWithBlank: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  }
-  if(window.innerWidth>1000){
-    swiperAlumni = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      slidesPerGroup: 3,
-      loop: true,
-      loopFillGroupWithBlank: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  }
-})
 // for side menu
 const body = document.querySelector("body");
 const navbar = document.querySelector(".nav-content");

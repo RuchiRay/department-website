@@ -171,18 +171,12 @@ body {
   margin: 10px;
 }
 .img-one {
-  /* background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/11.jpg); */
-  /* background-image: linear-gradient( rgba(73, 39, 74, 0.5),rgba(73, 39, 74, 0.5)),url(../images/11.jpg); */
   background-image: url(../images/11.jpg);
 }
 .img-two {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
-  /* url(../images/33.jpg); */
   background-image: url(../images/33.jpg);
 }
 .img-three {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
-  /* url(../images/222.jpg); */
   background-image: url(../images/222.jpg);
 }
 .img-one,
@@ -206,6 +200,7 @@ body {
 .swiper-slide {
   display: flex;
   justify-content: flex-end;
+  
 }
 .info {
   display: flex;

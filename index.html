@@ -8,6 +8,9 @@
     <title>Home Page</title>
     <!-- favicon link -->
     <link rel="shortcut icon" type="image/jpg" href="images/Department logo.png" />
+    <!-- AOS link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- swiper link -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -141,7 +144,8 @@
     <div class="project">
         <h3 class="content-head">OUR PROJECTS</h3>
         <div class="project-wrapper">
-            <div class="pro-one">
+            <div class="pro-one" data-aos="zoom-out" data-aos-duration="1000" 
+                data-aos-easing="ease-in-out">
                 <div class="pro-img">
                     <img src="images/mining-excavator-1736293_640.jpg" alt="">
                 </div>
@@ -155,7 +159,8 @@
                     <button class="read">Read</button>
                 </div>
             </div>
-            <div class="pro-two">
+            <div class="pro-two" data-aos="zoom-in" data-aos-duration="1000" 
+                data-aos-easing="ease-in-out">
                 <div class="pro-img">
                     <img src="images/mining-excavator-1736293_640.jpg" alt="">
                 </div>
@@ -169,7 +174,8 @@
                     <button class="read">Read</button>
                 </div>
             </div>
-            <div class="pro-three">
+            <div class="pro-three" data-aos="zoom-out" data-aos-duration="1000" 
+                data-aos-easing="ease-in-out">
                 <div class="pro-img">
                     <img src="images/mining-excavator-1736293_640.jpg" alt="">
                 </div>
@@ -189,22 +195,22 @@
 
     <!-- Numbers -->
     <div class="number-wrapper">
-        <div class="publications">
+        <div class="publications"data-aos="zoom-in-up"data-aos-duration="1500">
             <p class="num-icon"><i class="fas fa-book-open nicon"></i></p>
             <span class="number count">10</span><span class="number">+</span>
             <p class="num-title">publications</p>
         </div>
-        <div class="students">
+        <div class="students"data-aos="zoom-in-down"data-aos-duration="1500">
             <p class="num-icon"><i class="fas fa-users nicon"></i></p>
             <span class="number count">500</span><span class="number">+</span>
             <p class="num-title">students</p>
         </div>
-        <div class="placements">
+        <div class="placements"data-aos="zoom-in-down"data-aos-duration="1500">
             <p class="num-icon"><i class="fas fa-graduation-cap nicon"></i></p>
             <span class="number count">81</span><span class="number">%</span>
             <p class="num-title">placements</p>
         </div>
-        <div class="projects">
+        <div class="projects"data-aos="zoom-in-up"data-aos-duration="1500">
             <p class="num-icons"><i class="fas fa-gift nicon"></i></p>
             <span class="number count">8</span><span class="number">+</span>
             <p class="num-title">projects</p>
@@ -214,7 +220,7 @@
     <div class="expertise">
         <h3 class="content-head">OUR EXPERTISE</h3>
         <div class="expertise-wrapper">
-            <div class="inner-card">
+            <div class="inner-card"data-aos="flip-up"data-aos-duration="1500">
                 <h3 class="field-title">Continuous Improvement</h3>
                 <div class="names">
                     <div>
@@ -224,7 +230,7 @@
                     </div>
                 </div>
             </div>
-            <div class="inner-card">
+            <div class="inner-card"data-aos="flip-up"data-aos-duration="1500">
                 <h3 class="field-title">Continuous Improvement</h3>
                 <div class="names">
                     <div>
@@ -234,7 +240,7 @@
                     </div>
                 </div>
             </div>
-            <div class="inner-card">
+            <div class="inner-card"data-aos="flip-up"data-aos-duration="1500">
                 <h3 class="field-title">Continuous Improvement</h3>
                 <div class="names">
                     <div>
@@ -244,7 +250,7 @@
                     </div>
                 </div>
             </div>
-            <div class="inner-card">
+            <div class="inner-card"data-aos="flip-down"data-aos-duration="1500">
                 <h3 class="field-title">Continuous Improvement</h3>
                 <div class="names">
                     <div>
@@ -254,7 +260,7 @@
                     </div>
                 </div>
             </div>
-            <div class="inner-card">
+            <div class="inner-card"data-aos="flip-down"data-aos-duration="1500">
                 <h3 class="field-title">Continuous Improvement</h3>
                 <div class="names">
                     <div>
@@ -264,7 +270,7 @@
                     </div>
                 </div>
             </div>
-            <div class="inner-card">
+            <div class="inner-card"data-aos="flip-down"data-aos-duration="1500">
                 <h3 class="field-title">Continuous Improvement</h3>
                 <div class="names">
                     <div>
@@ -283,54 +289,66 @@
     <div class="alumni">
         <h3 class="content-head">OUR ALUMNI</h3>
 
-        <div class="swiper-container mySwiper" id="mySwiper">
+        <div class="swiper-container mySwiper" id="mySwiper"data-aos="zoom-in-up"data-aos-duration="1500">
             <div class="swiper-wrapper">
-                <div class="swiper-slide alumni-slide" style="justify-content: center; flex-direction: column;">
+                <div class="swiper-slide alumni-slide"
+                    style="justify-content: center; flex-direction: column; align-items: center;">
                     <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
                     <div class="alumni-details">
                         <h3 class="alumni-name">Alumni Name</h3>
                         <h4 class="alumin-pos">Alumni Position</h4>
-                        <p class="alumni-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illum necessitatibus asperiores incidunt sed doloremque!</p>
+                        <p class="alumni-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illum
+                            necessitatibus asperiores incidunt sed doloremque!</p>
                     </div>
                 </div>
-                <div class="swiper-slide alumni-slide" style="justify-content: center;flex-direction: column;">
+                <div class="swiper-slide alumni-slide"
+                    style="justify-content: center;flex-direction: column;align-items: center;">
                     <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
                     <div class="alumni-details">
                         <h3 class="alumni-name">Alumni Name</h3>
                         <h4 class="alumin-pos">Alumni Position</h4>
-                        <p class="alumni-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illum necessitatibus asperiores incidunt sed doloremque!</p>
+                        <p class="alumni-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illum
+                            necessitatibus asperiores incidunt sed doloremque!</p>
                     </div>
                 </div>
-                <div class="swiper-slide alumni-slide"style="justify-content: center;flex-direction: column;">
+                <div class="swiper-slide alumni-slide"
+                    style="justify-content: center;flex-direction: column;align-items: center;">
                     <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
                     <div class="alumni-details">
                         <h3 class="alumni-name">Alumni Name</h3>
                         <h4 class="alumin-pos">Alumni Position</h4>
-                        <p class="alumni-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illum necessitatibus asperiores incidunt sed doloremque!</p>
+                        <p class="alumni-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illum
+                            necessitatibus asperiores incidunt sed doloremque!</p>
                     </div>
                 </div>
-                <div class="swiper-slide alumni-slide"style="justify-content: center; flex-direction: column;">
+                <div class="swiper-slide alumni-slide"
+                    style="justify-content: center; flex-direction: column;align-items: center;">
                     <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
                     <div class="alumni-details">
                         <h3 class="alumni-name">Alumni Name</h3>
                         <h4 class="alumin-pos">Alumni Position</h4>
-                        <p class="alumni-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illum necessitatibus asperiores incidunt sed doloremque!</p>
+                        <p class="alumni-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illum
+                            necessitatibus asperiores incidunt sed doloremque!</p>
                     </div>
                 </div>
-                <div class="swiper-slide alumni-slide"style="justify-content: center;flex-direction: column;">
+                <div class="swiper-slide alumni-slide"
+                    style="justify-content: center;flex-direction: column;align-items: center;">
                     <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
                     <div class="alumni-details">
                         <h3 class="alumni-name">Alumni Name</h3>
                         <h4 class="alumin-pos">Alumni Position</h4>
-                        <p class="alumni-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illum necessitatibus asperiores incidunt sed doloremque!</p>
+                        <p class="alumni-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illum
+                            necessitatibus asperiores incidunt sed doloremque!</p>
                     </div>
                 </div>
-                <div class="swiper-slide alumni-slide"style="justify-content: center;flex-direction: column;">
+                <div class="swiper-slide alumni-slide"
+                    style="justify-content: center;flex-direction: column;align-items: center;">
                     <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
                     <div class="alumni-details">
                         <h3 class="alumni-name">Alumni Name</h3>
                         <h4 class="alumin-pos">Alumni Position</h4>
-                        <p class="alumni-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illum necessitatibus asperiores incidunt sed doloremque!</p>
+                        <p class="alumni-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illum
+                            necessitatibus asperiores incidunt sed doloremque!</p>
                     </div>
                 </div>
 
@@ -401,17 +419,12 @@
     </div>
     <div class="last">
         <div class="copyright">Copyright&#169;2021 | IPE Department</div>
-        <!-- <div class="thoughts">
-            <p>Thought of the day</p>
-            <p class="underline-last"></p>
-            <p class="thought">If you cry because the sun has gone out of your life, your tears will prevent you from seeing the stars</p>
-            <p class="author" style="text-align: right;">-Rabindranath Tagore</p>
-        </div> -->
         <a href="#header" id="go-to-top"><i class="fas fa-angle-up"></i></a>
 
     </div>
 
-
+    <!-- AOS script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <!-- swiper script -->
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>

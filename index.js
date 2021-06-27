@@ -103,5 +103,7 @@ for (let drop of dropdowns) {
 
 // for AOS animations
 
-      AOS.init();
+      AOS.init({
+        offset:200
+      });
   

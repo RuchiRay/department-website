@@ -18,6 +18,7 @@ html {
 }
 body {
   background: var(--background);
+  /* background-color: blue; */
   /* background: url(../images/background.svg); */
 }
 .header {

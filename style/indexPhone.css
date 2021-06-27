@@ -4,10 +4,17 @@
     width: 30%;
   }
   #mySwiper{
-    margin-top: 0px;
-    height: 500px;
-    width: 100%;
+     width: 100%;
    }
+   /* projects */
+  .project-wrapper{
+    width: 100%;
+  }
+  
+  /* expertise */
+  .inner-card {
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -17,17 +24,15 @@
   .logo-heading {
     top: 0;
   }
-  /* projects */
+  .project-wrapper{
+    justify-content: center;
+  }
   .pro-one,
   .pro-two,
   .pro-three {
-    width: 30%;
-    margin: 10px;
+    margin: 30px 50px;
   }
-  /* expertise */
-  .inner-card {
-    width: 40%;
-  }
+  
 }
 
 @media screen and (max-width: 1060px) {
@@ -111,6 +116,7 @@
   .swiper-slide {
     justify-content: center;
   }
+  
 }
 
 @media screen and (max-width: 900px) {
@@ -126,6 +132,17 @@
     margin-bottom: 30px;
     margin-right: 0;
   }
+  /* project */
+  .project-wrapper{
+    width: 95%;
+   
+  }
+  .pro-one,
+  .pro-two,
+  .pro-three {
+    margin: 30px 30px;
+  }
+  
   /* numbers */
   .number-wrapper {
     height: fit-content;
@@ -148,21 +165,10 @@
   .content-head {
     margin-bottom: 15px;
   }
-  .project-wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
-  .pro-two {
-    transform: translateY(0%);
-  }
-  .pro-two:hover {
-    transform: translateY(-5%);
-  }
   .pro-one,
   .pro-two,
   .pro-three {
-    width: 70%;
-    margin-bottom: 30px;
+    margin: 30px 15px;
   }
   /* expertise */
   .inner-card {
@@ -219,12 +225,17 @@
   .content-head {
     margin-bottom: 5px;
   }
-  .project {
-    margin: 20px 0px 20px 0px;
+  .project-wrapper{
+    width: 100%;
   }
+  
   /* expertise */
   .inner-card{
     width: 60%;
+  }
+  /* alumni */
+  #mySwiper{
+    margin-top: 30px;
   }
   
 }
@@ -247,6 +258,7 @@
   .field-title{
     font-size: 20px;
   }
+  
 }
 @media screen and (max-width: 435px) {
   .department,
@@ -280,6 +292,8 @@
   .num-title {
     font-size: 16px;
   }
+  /* projects */
+  
   /* expertise */
   .inner-card{
     width: 85%;
@@ -298,14 +312,18 @@
   .swiper-slide img {
     height: 350px;
   }
-  /* projects */
-  .pro-one,
-  .pro-two,
-  .pro-three {
-    width: 90%;
-  }
+  
   .content-head {
     font-size: 30px;
+  }
+  .alumni{
+    margin: 20px 0px;
+  }
+  .expertise{
+    margin: 60px 0px 0px 0px;
+  }
+  .expertise-wrapper{
+    margin: 20px 0px 20px 0px;
   }
 }
 @media screen and (max-width: 350px) {
@@ -315,8 +333,21 @@
   .logo-heading {
     padding-left: 10px;
   }
+  /* project */
+  .pro-one,
+  .pro-two,
+  .pro-three {
+    margin: 30px 10px;
+  }
+  .project{
+    margin: 40px 0px 4px 0px;
+  }
+  .project-wrapper{
+    margin-top: 0px;
+  }
   /* expertise */
   .inner-card{
     width: 95%;
   }
+  
 }

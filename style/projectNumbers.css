@@ -11,8 +11,8 @@ html {
   flex-direction: column;
   align-items: center;
   font-family: var(--common-font);
-  position: relative;
   margin: 80px 0px 85px 0px;
+  overflow: hidden;
 }
 .content-head {
   font-size: var(--main-heading);
@@ -22,10 +22,11 @@ html {
 }
 .project-wrapper {
   display: flex;
-  width: 100%;
-  justify-content: center;
-  margin-top: 30px;
+  width: 72%;
+  justify-content: space-between;
+  margin-top: 45px;
   margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 .pro-img,
 .pro-img img {
@@ -35,25 +36,14 @@ html {
 .pro-one,
 .pro-two,
 .pro-three {
-  /* border: 2px solid red; */
   border-radius: 5px;
-  width: 22%;
-  margin: 25px;
+  /* width: 28%; */
+  width: 310px;
   background: #ffffff;
   box-shadow: 7px 7px 14px #c7c7c7, -7px -7px 14px #ffffff;
   z-index: 7;
   transition: 0.3s ease-out;
   /* border: 1px solid gray; */
-}
-.pro-two {
-  transform: translateY(10%);
-}
-.pro-one:hover,
-.pro-three:hover {
-  transform: translateY(-5%);
-}
-.pro-two:hover {
-  transform: translateY(0);
 }
 .pro-info {
   padding: 20px 20px 10px 20px;
@@ -131,7 +121,7 @@ html {
 /* expertise */
 .expertise {
   font-family: var(--common-font);
-  margin: 30px 0px 0px 0px;
+  margin: 80px 0px 0px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -142,7 +132,7 @@ html {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: 0px 0px 20px 0px;
+  margin: 30px 0px 20px 0px;
 }
 
 .inner-card {
@@ -199,22 +189,22 @@ html {
 .inner-card:hover .names p {
   opacity: 1;
   transform: translateY(20px);
-  line-height: 30px;
+  
 }
 .inner-card:hover .field-title {
   transform: translateY(10%);
   color: rgba(0, 0, 0, 1);
   z-index: 3;
 }
-.inner-card:hover {
+/* .inner-card:hover {
   height: 320px;
-}
+} */
 /* alumni */
 .alumni {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 40px;
+  margin: 40px 0px;
   font-family: var(--common-font);
 }
 .swiper-wrapper {
@@ -234,15 +224,11 @@ html {
   width: 100%;
   height: 50%;
 }
-/* .swiper-slide-active{
-  transform: scale(1);
-  transition: 0.4s;
-} */
+
 #mySwiper {
-  margin: 20px 0px 30px 0px;
+  margin: 0px 0px 30px 0px;
   height: 500px;
-  width: 70%;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  width: 70%
 }
 .alumni-details {
   width: 80%;

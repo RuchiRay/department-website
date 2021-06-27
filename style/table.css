@@ -14,3 +14,11 @@ td,th{
 ol{
     list-style-type:none;
 }
+td p a{
+    text-decoration: none; 
+    font-weight:bold; 
+    color:black;
+} 
+td p a:hover{
+    color:blue;
+}
